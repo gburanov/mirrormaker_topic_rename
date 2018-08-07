@@ -35,3 +35,7 @@ It is a semicolon separated list of string pairs, which are itself separated by 
 kafka-mirror-maker --consumer.config consumer.properties --producer.config producer.properties --whitelist test_.* --message.handler com.opencore.RenameTopicHandler --message.handler.args `test_source,test_target;test_source2,test_target2`
 ```
 
+## Build
+```
+mvn clean install
+```
