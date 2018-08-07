@@ -1,4 +1,4 @@
-package com.opencore;
+package com.kafka;
 
 import java.util.Collections;
 import java.util.HashMap;
